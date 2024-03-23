@@ -1,22 +1,17 @@
 import React from "react";
-import Button, { BUTTON_STATES } from "./components/Button";
+import ComponentFrame from "./components/utils/ComponentFrame";
+import CardType1 from "./components/cards/CardType1";
 
 const App = () => {
-  const onClick = ({ buttonState }) => {
-    if (buttonState === BUTTON_STATES.ON) {
-      console.log("Turning off");
-    }
-    if (buttonState === BUTTON_STATES.OFF) {
-      console.log("Turning on");
-    }
-  };
   return (
-    <div className="App  ">
-      <header className="App-header flex-col gap-4">
-        <Button state={BUTTON_STATES.ON} onClickHandler={onClick} />
-        <Button state={BUTTON_STATES.OFF} onClickHandler={onClick} />
-        <Button state={BUTTON_STATES.OFF} onClickHandler={onClick} />
-      </header>
+    <div className="flex w-screen h-screen">
+      <ComponentFrame
+        heightClass={"h-screen"}
+        widthClass={"w-full"}
+        className="flex bg-blue-200 items-center justify-center"
+      >
+        <CardType1></CardType1>
+      </ComponentFrame>
     </div>
   );
 };
