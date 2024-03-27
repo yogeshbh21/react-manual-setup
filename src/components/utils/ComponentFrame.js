@@ -8,8 +8,6 @@ const ComponentFrame = ({
   style,
   ...props
 }) => {
-  console.log(heightClass, widthClass, "ded");
-
   return (
     <>
       <div

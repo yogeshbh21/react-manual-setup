@@ -1,7 +1,7 @@
 [
   {
     "name": "Aj styles",
-    "brand": "Raw",
+    "brand": "SMACKDOWN",
     "rating": 4.5,
     "agility": 90,
     "stamina": 85,
@@ -10,7 +10,22 @@
     "company": "WWE",
     "status": "Active",
     "otherInfo": {
-      "coverPic": "",
+      "coverPic": "/wrestler-covers/aj-styles.png",
+      "themeSong": ""
+    }
+  },
+  {
+    "name": "John Cena",
+    "brand": "RAW",
+    "rating": 4.5,
+    "agility": 90,
+    "stamina": 85,
+    "strength": 90,
+    "weight": 250,
+    "company": "WWE",
+    "status": "Active",
+    "otherInfo": {
+      "coverPic": "/wrestler-covers/john-cena.png",
       "themeSong": ""
     }
   }

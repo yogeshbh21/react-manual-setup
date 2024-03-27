@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
+        smackdown: ["Smackdown2016"],
       },
     },
   },

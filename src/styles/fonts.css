@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Smackdown2016';
+    src: url('../../public/fonts/SmackLaidethDown2016-DKBm.ttf') format('truetype'),
+         url('../../public/fonts/SmackLaidethDown2016Oblique-AY92.ttf') format('ttf');
+    /* Add other font formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+  

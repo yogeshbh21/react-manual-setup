@@ -1,4 +1,4 @@
-class Wrestler {
+export class Wrestler {
   constructor({
     name,
     brand,
